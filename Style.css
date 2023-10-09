@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background: url(WhatsApp\ Image\ 2023-09-14\ at\ 1.02.40\ AM\ \(1\).jpeg) no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+}
+.input p{
+    padding: 5px;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 9px;
+    text-align: center;
+    width: 20%;
+    font-weight: 600;
+}
+.count {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    min-width: 20px;
+    margin:20px 10px;
+    padding: 9px;
+}
+.head {
+    color:black;
+    font-size: 20px;
+    width: 110px;
+    justify-content: center;
+    text-align: center;
+}
+.touch {
+    background-color: white;
+    font-size: 30px;
+    width: 50px;
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+    border-radius: 9px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    
+}
+#date {
+    border-radius: 20px;
+    min-width: 50px;
+    margin: 20px 10px;
+    padding: 9px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+#time {
+    border-radius: 20px;
+    min-width: 50px;
+    margin:20px 10px;
+    padding: 9px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.buttons:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+    scale: 1.1;   
+}

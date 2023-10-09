@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTDOWN TIMER</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>COUNTDOWN TIMER</h1>
+    <div class="input">
+    <div class="date">
+        <p>Enter Date</p>
+        <input type="Date" id="date"></div>
+    <div class="time">
+        <p>Enter Time</p>
+        <input type="Time" id="time"></div>
+    </div>
+
+
+    <div class="btns">
+        <button id="start" class="buttons">START</button>
+        <button id="stop" class="buttons">STOP</button>
+        <button id="reset" class="buttons">RESET</button>
+        <button id="restart" class="buttons">REStart</button>
+    </div>
+    <div class="count">
+        <div id="container">
+            <p class="head">DAY</p>
+            <div id="day" class="touch">00</div>
+        </div>
+        <div id="container">
+            <p class="head">HOURS</p>
+            <div id="hour" class="touch">00</div>
+        </div>
+        <div id="container">
+            <p class="head">MINUTES</p>
+            <div id="min" class="touch">00</div>
+        </div>
+        <div id="container">
+            <p class="head">SECONDS</p>
+            <div id="sec" class="touch">00</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
